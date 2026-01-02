@@ -1,5 +1,4 @@
 ### VisualStudioCode ###
-.vscode/*
 
 ### WebStorm ###
 .idea/*
@@ -142,8 +141,6 @@ jspm_packages/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
-.env.test
 
 # gatsby files
 .cache/
@@ -208,3 +205,4 @@ api/logs/
 
 ### Turborepo
 .turbo
+config.bat

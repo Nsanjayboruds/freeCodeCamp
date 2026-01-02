@@ -21,7 +21,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --max-warnings 0",
-    "build": "NODE_OPTIONS=\"--max-old-space-size=7168\" webpack -c webpack.config.cjs"
+    "build": "node init && NODE_OPTIONS=\"--max-old-space-size=7168\" webpack -c webpack.config.cjs"
   },
   "type": "module",
   "keywords": [],

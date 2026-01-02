@@ -12,8 +12,8 @@
     "vite": "4.5.2"
   },
   "scripts": {
-    "start": "PORT=3300 vite",
-    "build": "tsc && vite build",
+    "start": "node init && PORT=3300 vite",
+    "build": "node init && tsc && vite build",
     "lint": "eslint --max-warnings 0",
     "test": "echo \"no tests here yet\"",
     "postinstall": "shx cp ./sample.env ./.env"
